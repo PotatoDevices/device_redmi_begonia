@@ -135,3 +135,7 @@ persist.vendor.quick.charge=1
 # Network & Internet
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.fflag.override.settings_network_and_internet_v2=true
+
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+camera.disable_zsl_mode=true
