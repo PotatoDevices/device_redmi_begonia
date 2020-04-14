@@ -1,0 +1,2 @@
+type sysfs_white_led, sysfs_type, fs_type;
+type debugfs_kgsl, debugfs_type, fs_type;

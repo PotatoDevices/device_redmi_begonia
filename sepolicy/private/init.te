@@ -1,0 +1,2 @@
+allow init sysfs_white_led:file { write open };
+allow init sysfs:file { write open };
