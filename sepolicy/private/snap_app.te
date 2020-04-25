@@ -1,0 +1,2 @@
+allow snap_app mtkcam_prop:file { getattr map open };
+allow snap_app vendor_default_prop:file { getattr map open };

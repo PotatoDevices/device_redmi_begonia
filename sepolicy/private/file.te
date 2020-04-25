@@ -1,2 +1,6 @@
 type sysfs_white_led, sysfs_type, fs_type;
 type debugfs_kgsl, debugfs_type, fs_type;
+type sysfs_boot_mode, fs_type, sysfs_type;
+type firmware_file, fs_type, contextmount_type;
+type debugfs_ion, fs_type, debugfs_type;
+type mtkcam_prop, file_type;

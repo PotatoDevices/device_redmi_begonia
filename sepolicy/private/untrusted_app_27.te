@@ -1,4 +1,7 @@
-allow untrusted_app_27 proc:file { getattr open read };
-allow untrusted_app_27 proc_stat:file { getattr open };
-allow untrusted_app_27 proc_vmstat:file open;
-allow untrusted_app_27 proc_zoneinfo:file { getattr open read };
+dontaudit untrusted_app_27 proc:file { getattr open read };
+dontaudit untrusted_app_27 proc_stat:file { getattr open };
+dontaudit untrusted_app_27 proc_vmstat:file { getattr open };
+allow untrusted_app_27 proc_zoneinfo:file { read } ;
+allow untrusted_app_27 proc_zoneinfo:file { getattr } ;
+allow untrusted_app_27 proc_zoneinfo:file { open } ;
+dontaudit untrusted_app_27 debugfs_ion:dir search;

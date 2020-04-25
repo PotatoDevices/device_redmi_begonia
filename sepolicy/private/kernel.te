@@ -1,0 +1,1 @@
+allow kernel firmware_file:file { open read };
