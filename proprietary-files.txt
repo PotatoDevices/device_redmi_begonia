@@ -246,6 +246,7 @@ vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so
+vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Reserved.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so
@@ -306,10 +307,12 @@ vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so
+vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Reserved.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so
+vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so
@@ -495,6 +498,7 @@ vendor/lib64/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so
+vendor/lib64/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Reserved.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so
@@ -555,10 +559,12 @@ vendor/lib64/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so
+vendor/lib64/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Reserved.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so
+vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so
@@ -713,6 +719,7 @@ vendor/firmware/soc1_0_patch_mcu_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_bt_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_mcu_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_wifi_2a_1_hdr.bin
+vendor/firmware/txpowerctrl.cfg
 vendor/firmware/WIFI_RAM_CODE_soc1_0_2a_1.bin
 vendor/firmware/WMT_SOC.cfg
 
@@ -795,6 +802,7 @@ vendor/lib64/libstagefrighthw.so
 
 # Mediatek
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
+vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
@@ -809,6 +817,7 @@ vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
+vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
 vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
@@ -825,7 +834,6 @@ vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/media_codecs_mediatek_audio.xml
 vendor/etc/media_codecs_mediatek_video.xml
-vendor/etc/permissions/com.mediatek.hardware.vow.xml
 vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml
 vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
@@ -1056,6 +1064,13 @@ vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # NFC
+vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service
+vendor/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc
+vendor/etc/libese-nxp.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
 vendor/etc/nxp/Phone_bt_bt.bin
 vendor/etc/nxp/Phone_hsmic_hs.bin
 vendor/etc/nxp/Phone_mic_hp.bin
@@ -1082,14 +1097,26 @@ vendor/etc/nxp/VoIP_mic_recv.bin
 vendor/etc/nxp/VoIP_mic_recv_game.bin
 vendor/etc/nxp/VoIP_mic_spk.bin
 vendor/etc/nxp/VoIP_mic_spk_game.bin
+vendor/etc/permissions/com.android.nfc_extras.xml
+vendor/etc/permissions/com.nxp.mifare.xml
+vendor/etc/sn100u_nfcon.pnscr
+vendor/lib/hw/nfc_nci.nqx.default.so
 vendor/lib/libnxprecord.so
 vendor/lib/libnxpspeech.so
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib/lib_smartpa_nxp_ap.so
+vendor/lib/ls_client.so
+vendor/lib/nfc_nci.nqx.default.hw.so
+vendor/lib/secure_element-impl.so
+vendor/lib64/hw/nfc_nci.nqx.default.so
 vendor/lib64/libnxprecord.so
 vendor/lib64/libnxpspeech.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/lib_smartpa_nxp_ap.so
+vendor/lib64/ls_client.so
+vendor/lib64/nfc_nci.nqx.default.hw.so
+vendor/lib64/secure_element-impl.so
+vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
 
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn
@@ -1173,6 +1200,7 @@ vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
 vendor/lib64/hw/vibrator.default.so
 
 # WiFi
+bin/iwpriv
 
 # Xiaomi
 etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
@@ -1229,6 +1257,7 @@ vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
+vendor/lib/libmlipay.so
 vendor/lib/libmlipay@1.1.so
 vendor/lib/libtida@1.1.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
@@ -1252,6 +1281,7 @@ vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
+vendor/lib64/libmlipay.so
 vendor/lib64/libmlipay@1.1.so
 vendor/lib64/libtida@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
@@ -1326,6 +1356,7 @@ vendor/bin/fuelgauged_nvram
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
+vendor/bin/hw/vendor.microtrust.hardware.se@1.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/ipsec_mon
 vendor/bin/jpegtool
@@ -1356,6 +1387,7 @@ vendor/bin/mtk_agpsd
 vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
+vendor/bin/pnscr
 vendor/bin/rttv
 vendor/bin/setup_fct
 vendor/bin/setup_fct_normal
@@ -1386,7 +1418,7 @@ vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/csot_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml
 vendor/etc/default_pd_calibration.bin
-vendor/etc/device_features/begoniain.xml
+vendor/etc/device_features/begonia.xml
 vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/ebbg_fhd_ft8719_dsi_vdo_lcm_drv_mi.xml
@@ -1438,6 +1470,7 @@ vendor/etc/init/mtkrild.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
+vendor/etc/init/vendor.microtrust.hardware.se@1.0-service.rc
 vendor/etc/init/vpud.rc
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/ipsec/ipsec.conf
@@ -1771,6 +1804,21 @@ vendor/etc/security/cacerts_supl/lab/ed7b215e.0
 vendor/etc/security/cacerts_supl/lab/ef4b31e6.0
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
+vendor/etc/sn100u_bootup.pnscr
+vendor/etc/sn100u_ese_disableIso.pnscr
+vendor/etc/sn100u_ese_disableIsoRead.pnscr
+vendor/etc/sn100u_pnx_chr.pnscr
+vendor/etc/sn100u_pnx_cui.pnscr
+vendor/etc/sn100u_pnx_ese_3.pnscr
+vendor/etc/sn100u_pnx_ese_aclog.pnscr
+vendor/etc/sn100u_pnx_ese_cplc.pnscr
+vendor/etc/sn100u_pnx_ese_fabkey.pnscr
+vendor/etc/sn100u_pnx_ese_free.pnscr
+vendor/etc/sn100u_pnx_ese_keyset.pnscr
+vendor/etc/sn100u_pnx_ese_sn.pnscr
+vendor/etc/sn100u_pnx_ndi.pnscr
+vendor/etc/sn100u_pnx_pcv.pnscr
+vendor/etc/sn100u_pnx_sst.pnscr
 vendor/etc/special_pws_channel.xml
 vendor/etc/spk_cal_pinknoise.wav
 vendor/etc/spk_cal_silence.wav
@@ -1860,6 +1908,7 @@ vendor/lib/hw/flp.default.so
 vendor/lib/hw/gps.default.so
 vendor/lib/hw/kmsetkey.default.so
 vendor/lib/hw/kmsetkey.mt6785.so
+vendor/lib/jcos_client.so
 vendor/lib/lib3a.ae.core.so
 vendor/lib/lib3a.ae.so
 vendor/lib/lib3a.af.core.so
@@ -1891,6 +1940,7 @@ vendor/lib/libccci_util.so
 vendor/lib/libcharon-ss.so
 vendor/lib/libcheckpid.so
 vendor/lib/libchromanr.so
+vendor/lib/libchrome.so
 vendor/lib/libcrypto-md.so
 vendor/lib/libcrypto-ss.so
 vendor/lib/libcurl-md.so
@@ -1968,6 +2018,7 @@ vendor/lib/librgbwlightsensor.so
 vendor/lib/librpc.so
 vendor/lib/libscltm.so
 vendor/lib/libsimaka.so
+vendor/lib/libsn100u_fw.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/libssl-md.so
@@ -2000,6 +2051,7 @@ vendor/lib/libstagefright_soft_vpxenc.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libstrongswan.so
 vendor/lib/libsysenv.so
+vendor/lib/libteeclientjni.so
 vendor/lib/libteeclientjni@1.1.so
 vendor/lib/libTEECommon.so
 vendor/lib/libtextclassifier_hash.so
@@ -2055,6 +2107,7 @@ vendor/lib/s5kgw1sp_mipi_raw_IdxMgr.so
 vendor/lib/s5kgw1sp_mipi_raw_tuning.so
 vendor/lib/s5kgw1sunny_mipi_raw_IdxMgr.so
 vendor/lib/s5kgw1sunny_mipi_raw_tuning.so
+vendor/lib/se_extn_client.so
 vendor/lib/vendor.microtrust.hardware.capi@2.0.so
 vendor/lib64/android.hardware.audio.common-util.so
 vendor/lib64/android.hardware.audio.common@5.0-util.so
@@ -2074,6 +2127,7 @@ vendor/lib64/hw/flp.default.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/kmsetkey.default.so
 vendor/lib64/hw/kmsetkey.mt6785.so
+vendor/lib64/jcos_client.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
@@ -2115,6 +2169,7 @@ vendor/lib64/libccci_util.so
 vendor/lib64/libcharon-ss.so
 vendor/lib64/libcheckpid.so
 vendor/lib64/libchromanr.so
+vendor/lib64/libchrome.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcrypto-md.so
 vendor/lib64/libcrypto-ss.so
@@ -2147,6 +2202,7 @@ vendor/lib64/libged.so
 vendor/lib64/libgpud.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgralloc_extra.so
+vendor/lib64/libgwsd-ril.so
 vendor/lib64/libgz_gp_client.so
 vendor/lib64/libgz_uree.so
 vendor/lib64/libhdrvideo.so
@@ -2207,6 +2263,7 @@ vendor/lib64/libssl-ss.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstrongswan.so
 vendor/lib64/libsysenv.so
+vendor/lib64/libteeclientjni.so
 vendor/lib64/libteeclientjni@1.1.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libtextclassifier_hash.so
@@ -2254,6 +2311,7 @@ vendor/lib64/s5kgw1sp_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw1sp_mipi_raw_tuning.so
 vendor/lib64/s5kgw1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgw1sunny_mipi_raw_tuning.so
+vendor/lib64/se_extn_client.so
 vendor/lib64/vendor.microtrust.hardware.capi@2.0.so
 vendor/lib64/wechat.beanpod.so
 vendor/res/images/lcd_test_00.png
