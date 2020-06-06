@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_begonia.mk
+    $(LOCAL_DIR)/ancient_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+ ancient_begonia-user \
+ ancient_begonia-userdebug \
+ ancient_begonia-eng

@@ -25,12 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from begonia device
 $(call inherit-product, device/redmi/begonia/device.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inheri from our custom product configuration
+$(call inherit-product, vendor/ancient/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := bliss_begonia
+PRODUCT_NAME := ancient_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
