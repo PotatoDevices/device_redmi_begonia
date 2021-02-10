@@ -125,7 +125,7 @@ ro.camera.sensor.highres.0.max=9280:6944
 ro.camera.highres.packagelist=org.lineageos.snap
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
-vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
 # Cutout (POSP)
 ro.potato.has_cutout=true
