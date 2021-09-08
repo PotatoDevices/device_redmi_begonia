@@ -130,6 +130,9 @@ vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,co
 # Cutout (POSP)
 ro.potato.has_cutout=true
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Blur
 ro.surface_flinger.supports_background_blur=1
 persist.sys.sf.disable_blurs=1
