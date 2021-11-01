@@ -301,10 +301,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor
 
-# TinyXML
-PRODUCT_PACKAGES += \
-    libtinyxml
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.0.vendor \
