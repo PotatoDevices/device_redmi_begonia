@@ -37,7 +37,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.210812.015/7679548:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="begonia-user 11 RP1A.200720.011 V12.5.3.0.RGGMIXM release-keys" \
