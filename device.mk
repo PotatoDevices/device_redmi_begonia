@@ -63,7 +63,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Camera2
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.3.vendor \
