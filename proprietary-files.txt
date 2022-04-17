@@ -874,6 +874,24 @@ vendor/lib64/hw/sound_trigger.primary.mt6785.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
+# Engineering Mode
+lib/libaudio_param_parser-sys.so
+lib/libaudiotoolkit.so
+lib/libaudioutilmtk.so
+lib/libem_audio_jni.so
+lib/libem_support_jni.so
+lib/libem_usb_jni.so
+lib/libem_wifi_jni.so
+lib64/libaudio_param_parser-sys.so
+lib64/libaudiotoolkit.so
+lib64/libaudiotoolkit.so
+lib64/libaudioutilmtk.so
+lib64/libem_audio_jni.so
+lib64/libem_support_jni.so
+lib64/libem_usb_jni.so
+lib64/libem_wifi_jni.so
+priv-app/EngineerMode/EngineerMode.apk
+
 # Mediatek
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
