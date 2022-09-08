@@ -356,7 +356,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.vendor.mediatek.platform=MT6785 \
     ro.vendor.mediatek.version.branch=alps-mp-r0.mp1.tc8sp \
     ro.vendor.mediatek.version.release=alps-mp-r0.mp1.tc8sp-V1_xiaomi.mgr.r0mp1.k6889v1.64_P100 \
-    persist.bluetooth.bluetooth_audio_hal.disabled=true \
     ro.vendor.mtk.bt_sap_enable=true \
     ro.vendor.mtk_aal_support=1 \
     ro.vendor.mtk_agps_app=1 \
